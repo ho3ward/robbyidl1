@@ -1,0 +1,40 @@
+SUMMARY:
+Build and modify the website locally on my laptop using VS Code
+Push to github periodically
+Pull to pythonanywhere.com
+See the site at https://squidsub.pythonanywhere.com/
+
+
+INITIALIZIZE:
+* Create a local folder for the web site: 
+* >cd c:\robby\github\
+* >git clone https://github.com/squidsub/hpvawareness.git
+* Now we have c:\robby\github\hpvawareness
+
+
+DEVELOPMENT:
+* cd hpvawareness
+* >code .
+* Make changes in VS Code
+* Git Commit and Push
+
+
+DEPLOYMENT:
+* Log on to https://pythonanywhere.com/
+* Open existing (or start a new) console
+* Ensure you are in folder ~/mysite/hpvawareness
+  EXAMPLE:
+  * >ls
+  * >cd hpvawareness
+* >git pull
+
+
+PUBLIC SITE:  
+https://squidsub.pythonanywhere.com/
+
+
+CREDENTIALS:
+* Github.com - squidsub : Vannevar2007
+* pythonanywhere.com - squidsub : vannevar
+
+
